@@ -1,4 +1,8 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 David Wu 12/16/19
-  Created all initial folders, and established preliminary model (Article)
+  8:00 AM Created all initial folders, and established preliminary model (Article)
   and its routes (get, post, deleteOne)
+
+  9:45 AM Working out the model for COMMENTS (each Article has many comments) 
+  and its Get, Post, deleteOne Routes
+
