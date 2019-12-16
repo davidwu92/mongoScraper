@@ -1,5 +1,5 @@
-//server.js
-//Packages installed: axios, cheerio, express, mongoose
+//server.js ~~~~~Packages installed: axios, cheerio, express, mongoose
+require('./config')
 const express = require('express')
 const {join} = require('path')
 const app = express()
