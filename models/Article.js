@@ -3,11 +3,15 @@
 
 module.exports = (model, Schema) => {
   const Article = new Schema({
-    title = String,
-    author = String,
-    content = String,
-    dateWritten = Date,
-  }, {timestamps: {createdAt: "scrapeDate", updatedAt: "scrapeUpdate"}}),
+    headline: String,
+    summary: String,
+    url: String,
+    isSaved: Boolean,
+  //each Article has many comments. 
+    comments: [{type: Schema.Types.ObjectId, ref: 'Comment'}]
+    },
+    {timestamps: {createdAt: "scrapeDate", updatedAt: "scrapeUpdate"}}
+    )
 
   return model('Article', Article)
 }

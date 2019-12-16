@@ -1,5 +1,4 @@
 //routes/articleRoutes
-//uncertain if keeping this route
 
 const {Article} = require('../models')
 
