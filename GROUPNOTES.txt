@@ -1,0 +1,4 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+David Wu 12/16/19
+  Created all initial folders, and established preliminary model (Article)
+  and its routes (get, post, deleteOne)

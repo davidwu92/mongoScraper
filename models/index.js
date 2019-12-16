@@ -2,4 +2,6 @@
 
 const {model, Schema} = require('mongoose')
 
-module.exports = {}
+const Article = require('./Article.js')(model, Schema)
+
+module.exports = {Article}

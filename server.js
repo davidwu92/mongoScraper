@@ -1,4 +1,5 @@
 //server.js
+//Packages installed: axios, cheerio, express, mongoose
 const express = require('express')
 const app = express()
 const {join} = require('path')
@@ -15,4 +16,3 @@ require('./routes')(app)
 require('mongoose')
   .connection
   .once('open', ()=>app.listen(3000))
-  
