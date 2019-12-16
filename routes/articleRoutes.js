@@ -14,7 +14,7 @@ module.exports = app => {
   })
 
   //POST one article
-  app.get('/articles', (req, res) =>{
+  app.post('/articles', (req, res) =>{
     Article.create(req.body)
       .then(()=>{
         //some kinda article logic goes here? -David

@@ -13,7 +13,7 @@ module.exports = app => {
   })
 
   //POST one article
-  app.get('/comments', (req, res) =>{
+  app.post('/comments', (req, res) =>{
     Comment.create(req.body)
       .then(({_id})=>{
         console.log(_id)
